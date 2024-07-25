@@ -19,7 +19,7 @@ public class User {
     }
 
     public String getLastname() {
-        return lastname;
+        return lastname.toUpperCase();
     }
 
     public void setLastname(String lastname) {
